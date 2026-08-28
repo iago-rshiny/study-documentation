@@ -1,0 +1,12 @@
+﻿# Obsidian - workspace e cache locais
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Backups do Obsidian
+.trash/
