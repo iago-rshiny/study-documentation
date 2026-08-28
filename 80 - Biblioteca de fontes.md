@@ -12,32 +12,36 @@ Registro do que consumo ao longo do tempo — vídeos, artigos, papers, podcasts
 ## Como usar
 
 - **Uma seção por fonte**, na ordem cronológica inversa (mais recente no topo).
-- **Categorizar o tipo** com uma tag no cabeçalho da entrada: `#video`, `#artigo`, `#paper`, `#livro`, `#podcast`, `#curso`, `#doc`, `#thread`, `#post`, `#outro`.
+- O **cabeçalho da seção (H2) é o título da fonte** — assim ela aparece no painel de outline e vira âncora citável. Data, tipo e URL vão nos campos de metadados abaixo.
+- **Categorizar o tipo** com uma tag no campo Tipo: `#video`, `#artigo`, `#paper`, `#livro`, `#podcast`, `#curso`, `#doc`, `#thread`, `#post`, `#outro`.
 - **Insight ≠ resumo.** Registrar o que muda algo no seu trabalho ou pensamento; se um item não vai virar ação, prompt ou decisão, ele não precisa estar aqui.
+- **Linkar insights às notas existentes do vault** quando houver ponte real. Usar alias com `[[nota|texto que aparece]]` quando o nome do arquivo for feio no meio da frase.
 - Quando um insight vira ação executada, marcar com ✅ e linkar a nota do nível/projeto onde entrou. Ex.: `✅ aplicado em [[30 - Nivel 3 - APIs e codigo]]`.
 
 ---
 
-## 2026-08-28 · Vídeo · YouTube
+## Me dê 28 minutos e eu vou te entregar 10.000 horas de conhecimento sobre Claude
 
 **Fonte:** https://www.youtube.com/watch?v=H3VcxLmKF78
-**Tipo:** `#video`
+**Tipo:** `#video` · YouTube
+**Data de consumo:** 2026-08-28
 **Tema:** uso de IA com contexto, verbalização, engenharia de prompt
 
 ### Insights
 
-- **Wispr Flow (ou Win+H / Fn no Mac)** — usar ditado por voz para alimentar contexto. Ganho duplo: velocidade de input e **verbalização como treino de oratória e clareza de explicação**. Falar o pensamento força a estrutura que a escrita esconde. Ler mais ajuda a construir repertório para verbalizar melhor *(minha sugestão)*.
-- **Teste de clareza** — se você não consegue verbalizar o problema de forma que a IA responda bem, você ainda não entendeu o problema. O prompt ruim é diagnóstico, não bug.
+- **Wispr Flow (ou Win+H / Fn no Mac)** — usar ditado por voz para alimentar contexto. Ganho duplo: velocidade de input e **verbalização como treino de oratória e clareza de explicação**. Falar o pensamento força a estrutura que a escrita esconde. Ler mais ajuda a construir repertório para verbalizar melhor *(minha sugestão)* — ver [[70 - Leituras paralelas]].
+- **Teste de clareza** — se você não consegue verbalizar o problema de forma que a IA responda bem, você ainda não entendeu o problema. O prompt ruim é diagnóstico, não bug. Casa direto com **Clareza e especificidade** e **Iteração medida** em [[20 - Nivel 2 - Prompt engineering]], e com o transversal [[01 - Conceitos transversais|Medição e critério de sucesso]] — sem definição de sucesso, não há como diagnosticar o próprio prompt.
 - **Heurística 40-40-20** — distribuição do esforço ao trabalhar com IA:
-  - **40% construir o repertório** — ler, estudar, absorver casos e classes de solução do domínio.
-  - **40% transformar imaginação em palavras** — verbalizar bem o que você quer, com contexto suficiente.
-  - **20% dominar técnicas de prompt** — a parte que os cursos vendem como 100%. Conecta com [[20 - Nivel 2 - Prompt engineering]]: técnica sem repertório rende pouco.
+  - **40% construir o repertório** — ler, estudar, absorver casos e classes de solução do domínio. É a razão de existir de [[10 - Nivel 1 - Fundamentos]] e das [[70 - Leituras paralelas]].
+  - **40% transformar imaginação em palavras** — verbalizar bem o que você quer, com contexto suficiente. Meta-habilidade transversal a todos os níveis.
+  - **20% dominar técnicas de prompt** — a parte que os cursos vendem como 100%. É o [[20 - Nivel 2 - Prompt engineering]] inteiro: técnica sem repertório rende pouco.
 - **A IA como expansora de repertório** — quando o próprio repertório trava, usar a IA para ampliá-lo com perguntas do tipo:
   - Quais classes de solução existem para este problema?
   - Quais mecanismos eu provavelmente ainda não conheço?
   - Quais critérios um especialista usaria para decidir?
   - Quais são as premissas e os riscos de cada alternativa?
-  Essas quatro perguntas são um mini-`/grill-me` do domínio, antes de qualquer execução. Ver [[50 - Nivel 5 - Agentes e arquitetura]].
+
+  Essas quatro perguntas são um mini-`/grill-me` do domínio, antes de qualquer execução. Ver a seção **Criação de skills e comandos próprios** em [[50 - Nivel 5 - Agentes e arquitetura]].
 - **Contexto organizado** — em vez de refazer o contexto a cada chamada, manter um documento vivo com estrutura fixa. Estrutura inicial sugerida:
   - Identidade e negócio
   - Posicionamento
@@ -49,7 +53,8 @@ Registro do que consumo ao longo do tempo — vídeos, artigos, papers, podcasts
   - Processos
   - Reuniões relevantes
   - Índice de localização
-  Isso é context engineering aplicado ao próprio negócio, não só ao produto. Conecta com [[01 - Conceitos transversais|Janela de contexto]] e com [[20 - Nivel 2 - Prompt engineering|Context engineering]]. **Próxima ação:** criar `Contexto - Iago automação IA.md` como nota viva do próprio negócio, seguindo essa estrutura.
+
+  Isso é **context engineering aplicado ao próprio negócio**, não só ao produto — ver [[01 - Conceitos transversais|Janela de contexto]] e a discussão de context engineering em [[20 - Nivel 2 - Prompt engineering]]. Quando esse documento estiver estável, vira insumo direto de skills e agentes do [[50 - Nivel 5 - Agentes e arquitetura]] (o LLM aumentado precisa de contexto de negócio, não só de conhecimento). **Próxima ação:** criar `Contexto - Iago automação IA.md` como nota viva, seguindo essa estrutura.
 
 ### Ações pendentes desta fonte
 
@@ -62,15 +67,16 @@ Registro do que consumo ao longo do tempo — vídeos, artigos, papers, podcasts
 ## Modelo para novas entradas
 
 ```markdown
-## AAAA-MM-DD · [Tipo] · [Fonte curta / autor]
+## Título da fonte (como o autor a chama)
 
 **Fonte:** [URL ou referência]
-**Tipo:** `#tag`
+**Tipo:** `#tag` · plataforma/publicação
+**Data de consumo:** AAAA-MM-DD
 **Tema:** o que a fonte trata em uma linha
 
 ### Insights
 
-- **[Título do insight]** — o que ficou e por que importa. Linkar [[nota-relacionada]] quando houver ponte.
+- **[Título do insight]** — o que ficou e por que importa. Linkar [[nota-relacionada]] quando houver ponte real.
 - **[Outro insight]** — …
 
 ### Ações pendentes desta fonte
@@ -83,7 +89,7 @@ Registro do que consumo ao longo do tempo — vídeos, artigos, papers, podcasts
 
 ## Índice por tipo (crescer com o tempo)
 
-- **Vídeos:** 2026-08-28 · YouTube · H3VcxLmKF78
+- **Vídeos:** 2026-08-28 · YouTube · *Me dê 28 minutos e eu vou te entregar 10.000 horas de conhecimento sobre Claude*
 - **Artigos:** —
 - **Papers:** —
 - **Livros:** —
