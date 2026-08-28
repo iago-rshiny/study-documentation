@@ -11,7 +11,7 @@ tags: [roadmap-ia, nivel-2]
 
 **Objetivo:** técnicas estruturadas de instrução, com fontes primárias (a área é cheia de lixo publicado — "100 prompts mágicos" é ruído; docs oficiais resolvem 90%).
 **Modelo mental:** prompt não é comando, é **condicionamento** — você altera P(saída | contexto) mudando o contexto. Exemplos condicionam mais forte que adjetivos.
-**Evolução do termo:** context engineering é a progressão natural — curar e manter o conjunto ótimo de tokens durante a inferência, incluindo tudo que chega fora dos prompts. Não é fase que termina; vira a base do [[50 - Nível 5 - Agentes e arquitetura]].
+**Evolução do termo:** context engineering é a progressão natural — curar e manter o conjunto ótimo de tokens durante a inferência, incluindo tudo que chega fora dos prompts. Não é fase que termina; vira a base do [[50 - Nivel 5 - Agentes e arquitetura]].
 
 ## Conceitos (em ordem de retorno sobre esforço)
 

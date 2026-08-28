@@ -11,7 +11,7 @@ Cinco conceitos que reaparecem em todos os níveis. Criar estas notas primeiro �
 
 ## Token e custo por token
 Tudo é medido, cobrado e limitado em tokens. Português consome ~30-40% mais tokens que inglês para o mesmo conteúdo — afeta custo de projeto diretamente.
-Aparece em: [[10 - Nível 1 - Fundamentos]] (tokenização), [[30 - Nível 3 - APIs e código]] (custo por chamada), [[50 - Nível 5 - Agentes e arquitetura]] (custo do loop), [[60 - Nível 6 - Produção e avaliação]] (custo por conversa).
+Aparece em: [[10 - Nivel 1 - Fundamentos]] (tokenização), [[30 - Nivel 3 - APIs e codigo]] (custo por chamada), [[50 - Nivel 5 - Agentes e arquitetura]] (custo do loop), [[60 - Nivel 6 - Producao e avaliacao]] (custo por conversa).
 
 ## Janela de contexto
 Tudo que o modelo "sabe" naquela chamada está no contexto — não há memória entre chamadas. O que sai da janela deixa de existir. É a origem da necessidade de RAG e da gestão de memória em agentes.

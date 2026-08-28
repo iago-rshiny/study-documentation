@@ -12,7 +12,7 @@ Livros lidos **em paralelo** aos níveis, não como pré-requisito. São o contr
 ## Os livros
 
 - [ ] **A Philosophy of Software Design** — John Ousterhout
-  Fonte do conceito de **deep vs shallow modules** usado no [[50 - Nível 5 - Agentes e arquitetura]]. Curto, direto, e o mais imediatamente aplicável dos quatro. **Ler primeiro**, junto com os Níveis 3-4: complexidade, information hiding, interfaces, "define errors out of existence".
+  Fonte do conceito de **deep vs shallow modules** usado no [[50 - Nivel 5 - Agentes e arquitetura]]. Curto, direto, e o mais imediatamente aplicável dos quatro. **Ler primeiro**, junto com os Níveis 3-4: complexidade, information hiding, interfaces, "define errors out of existence".
   *Por que importa dobrado com IA:* agentes de código produzem módulos rasos por padrão; este livro dá o vocabulário para pedir (e reconhecer) o contrário.
 
 - [ ] **The Pragmatic Programmer** — Hunt & Thomas (ed. 20 anos)
@@ -26,7 +26,7 @@ Livros lidos **em paralelo** aos níveis, não como pré-requisito. São o contr
   *Aplicação direta no negócio:* automatizar o atendimento de uma clínica exige primeiro mapear o domínio da clínica (o que é "agendamento", "encaixe", "retorno" NA LINGUAGEM DELES). DDD é a disciplina disso — e o `/grill-me` aplicado ao domínio do cliente é DDD informal.
 
 - [ ] **Extreme Programming Explained** — Kent Beck *(bônus)*
-  Origem do TDD como disciplina e do princípio que ancora o vault: *"Invest in the design of the system every day."* Conecta [[30 - Nível 3 - APIs e código]] (TDD como loop) e o `/improve-codebase-architecture` do Nível 5.
+  Origem do TDD como disciplina e do princípio que ancora o vault: *"Invest in the design of the system every day."* Conecta [[30 - Nivel 3 - APIs e codigo]] (TDD como loop) e o `/improve-codebase-architecture` do Nível 5.
 
 ## Ordem sugerida
 
