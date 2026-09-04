@@ -1,9 +1,9 @@
 ---
 tipo: diario
 nivel: 1
-sessoes: 0
+sessoes: 1
 horas_acumuladas: 0
-iniciado:
+iniciado: 2026-09-04
 tags: [roadmap-ia, diario, nivel-1]
 ---
 
@@ -20,6 +20,7 @@ Conteúdo do nível: [[10 - Nivel 1 - Fundamentos]]
 
 ## 2026-09-04 · Predição do próximo token
 
+**Tópico:** [[10 - Nivel 1 - Fundamentos]] → `Predição do próximo token como classificação multiclasse`
 **Fonte consumida:** Large Language Models explained briefly — 3Blue1Brown (~9 min)
 **Tempo:**
 

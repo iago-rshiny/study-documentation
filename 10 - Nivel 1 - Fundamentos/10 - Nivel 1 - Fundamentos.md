@@ -14,9 +14,9 @@ tags: [roadmap-ia, nivel-1]
 
 ## Conceitos
 
-- [ ] **Predição do próximo token como classificação multiclasse** — a ponte com regressão logística multinomial; a diferença é escala e features aprendidas.
-- [ ] **Tokenização e BPE** — texto vira IDs inteiros de "pedaços" definidos por frequência no corpus. Explica por que o modelo erra ao contar letras.
-- [ ] **Custo de tokens PT vs EN** — português consome ~30-40% mais tokens. Impacto direto no custo dos projetos.
+- [x] **Predição do próximo token como classificação multiclasse** — a ponte com regressão logística multinomial; a diferença é escala e features aprendidas.
+- [x] **Tokenização e BPE** — texto vira IDs inteiros de "pedaços" definidos por frequência no corpus. Explica por que o modelo erra ao contar letras.
+- [x] **Custo de tokens PT vs EN** — português consome ~30-40% mais tokens. Impacto direto no custo dos projetos.
 - [ ] **Embeddings e similaridade por cosseno** — vetores em alta dimensão onde direções correspondem a significado. Intuição de PCA/análise fatorial, com dimensões aprendidas. Pré-requisito do Nível 4.
 - [ ] **Mecanismo de atenção (query, key, value)** — softmax sobre produtos internos; cada token atualiza seu vetor com base nos outros. Custo quadrático no contexto.
 - [ ] **Camadas MLP e armazenamento de fatos** — onde o "conhecimento" fica. Ajuda a entender por que o modelo sabe fatos mas não sabe *que* sabe.
