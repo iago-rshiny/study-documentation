@@ -35,6 +35,11 @@ tags: [roadmap-ia, nivel-5]
 - [ ] **Deep modules vs shallow modules** (Ousterhout, *A Philosophy of Software Design* — ver [[70 - Leituras paralelas]]) — módulo **profundo**: muita funcionalidade, interface simples, esconde complexidade. Módulo **raso**: pouca funcionalidade, interface complexa, expõe complexidade. A imagem mental: uma grade de dezenas de caixinhas idênticas e rasas (todo mundo conversa com todo mundo, nada esconde nada) versus meia dúzia de caixas grandes e profundas com interfaces enxutas entre elas. **Meta de refatoração: transformar a primeira na segunda** — menos módulos, mais profundos.
 - [ ] **`/improve-codebase-architecture` (aprofundar módulos)** — comando/skill recorrente: pedir ao agente para analisar o código e propor consolidações que aumentem profundidade — fundir caixinhas rasas relacionadas, simplificar interfaces, mover complexidade para dentro. Rodar periodicamente, não só quando dói: é o "invest in the design every day" do Kent Beck operacionalizado.
 - [ ] **Por que isso importa dobrado com IA** — agente de código gera caixinha rasa por padrão (cada pedido vira mais um arquivo/função solta). Sem pressão deliberada por profundidade, a codebase degrada mais rápido do que na era manual. Design de módulos é o trabalho que sobra para o humano.
+- [ ] **Harness engineering (Agent = Model + Harness)** — o agente é o sistema completo: modelo + harness. O harness é a camada de execução em volta do modelo — ferramentas, permissões, contexto, estado, testes, traces, retries, aprovações e evals — que torna o comportamento inspecionável, testável e restringível. Distinção de escopo: prompt engineering ([[20 - Nivel 2 - Prompt engineering]]) escreve instruções para um turno; harness engineering constrói o sistema que governa o agente ao longo de todos os turnos. Genealogia: termo atribuído a Mitchell Hashimoto (fev/2026), formalizado em post da OpenAI dias depois. O vault já cobria a substância sem o nome: loop com orçamento, design de ferramentas, gestão de contexto (este nível); feedback loops e TDD como guardrail ([[30 - Nivel 3 - APIs e codigo]]); tracing, evals e guardrails ([[60 - Nivel 6 - Producao e avaliacao]]).
+- [ ] **O princípio do Hashimoto** — quando o agente erra, construir uma solução que garanta que aquele erro específico nunca se repita. É o "todo bug vira teste" do Nível 3 elevado a filosofia de sistema: o harness acumula as lições, o modelo não precisa lembrar.
+- [ ] **Artefatos do harness** — AGENTS.md (documento de codebase: o que o agente pode tocar, quais convenções seguir, quais ferramentas existem), arquivos de constraint (o que nunca fazer; o que exige aprovação humana) e pipelines de contexto (os dados que chegam ao agente em runtime). Parentes das skills, com papel distinto: skill é procedimento reutilizável; constraint é limite inegociável.
+- [ ] **Guides e sensors** — guias codificam convenções ANTES da ação; sensores rodam DEPOIS que o agente age (evals, testes, verificação), pegando falhas antes da produção. É a ponte explícita deste nível com o [[60 - Nivel 6 - Producao e avaliacao]]: o Nível 6 inteiro é a camada de sensores do harness.
+- [ ] **Ângulo comercial** — "engenharia de harness" é vocabulário de 2026 que praticamente nenhum concorrente em PME brasileira usa. O pitch: "não entrego um bot, entrego um harness — o sistema que garante que o bot erra cada erro no máximo uma vez".
 
 ## Criação de skills e comandos próprios
 
@@ -53,6 +58,9 @@ O roadmap até aqui *usa* skills (Agent Skills, acima); esta seção é sobre **
 - **Documentação do MCP** e do Claude Agent SDK.
 - **Tutoriais do LangGraph** — só depois do loop feito à mão. https://langchain-ai.github.io/langgraph/
 - **Documentação do n8n** + comunidade de templates; documentação do Make.
+- **What is an AI Agent Harness?** — Databricks. Definição operacional das camadas modelo/harness. https://www.databricks.com/blog/ai-harness
+- **Harness Engineering for AI Coding Agents** — Augment Code. Genealogia do termo, PEV loops, rules files e quality gates. https://www.augmentcode.com/guides/harness-engineering-ai-coding-agents
+- **What Is Harness Engineering AI? The Definitive 2026 Guide** — Atlan. O framing guides/sensors e os artefatos (AGENTS.md, constraint files). https://atlan.com/know/what-is-harness-engineering/
 
 ## Projetos (Ciclos 3, 4 e 6)
 

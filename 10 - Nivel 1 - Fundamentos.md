@@ -27,13 +27,13 @@ tags: [roadmap-ia, nivel-1]
 
 ## Fontes
 
-- **Large Language Models explained briefly** — 3Blue1Brown, 9 min. Comece aqui. https://www.3blue1brown.com/
+- **Large Language Models explained briefly** — 3Blue1Brown, ~9 min. Comece aqui. Vídeo: https://www.youtube.com/watch?v=LPZh9BOjkQs · Página: https://www.3blue1brown.com/lessons/mini-llm/
 - **Deep Dive into LLMs like ChatGPT** — Karpathy, 3h31. *O* recurso do nível; dividir em 5-6 sessões. https://www.youtube.com/watch?v=7xTGNNLPyMI
 - **Tiktokenizer** — comparar contagem PT vs EN na prática. https://tiktokenizer.vercel.app/
 - **Let's build the GPT Tokenizer** — Karpathy, ~2h, BPE do zero (opcional). https://www.youtube.com/watch?v=zduSFxRajkE
-- **But what is a GPT?** — 3Blue1Brown, cap. 5 (~27 min): embeddings. https://www.3blue1brown.com/lessons/gpt/
-- **Attention in transformers, step-by-step** — 3Blue1Brown, cap. 6 (~26 min). https://www.3blue1brown.com/lessons/attention/
-- **How might LLMs store facts** — 3Blue1Brown, cap. 7 (~23 min): camadas MLP. https://www.youtube.com/watch?v=9-Jl0dxWQs8
+- **Transformers, the tech behind LLMs** — 3Blue1Brown, cap. 5 (~27 min): estrutura geral, word embeddings, unembedding e **softmax com temperatura**. Cobre dois conceitos deste nível de uma vez. https://www.3blue1brown.com/lessons/gpt/
+- **Attention in transformers, step-by-step** — 3Blue1Brown, cap. 6 (~26 min): query/key/value, produto interno como medida de similaridade, softmax, multi-head. https://www.3blue1brown.com/lessons/attention/
+- **How might LLMs store facts** — 3Blue1Brown, cap. 7 (~23 min): camadas MLP; usa o exemplo de armazenar "Michael Jordan joga basquete". https://www.3blue1brown.com/lessons/mlp/
 - **The Illustrated Transformer** — Jay Alammar (texto + diagrama). https://jalammar.github.io/illustrated-transformer/
 - **LLM Visualization** — Brendan Bycroft, GPT 3D navegável. https://bbycroft.net/llm
 - **Attention Is All You Need** — paper original; ler depois dos vídeos. https://arxiv.org/abs/1706.03762

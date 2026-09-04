@@ -50,6 +50,11 @@ Total realista: **6-8 meses até nível profissional**, estudando em paralelo co
 - **Meses 10-14:** arquitetura avançada + evals. "For Nerds" entra aqui. Precificação recorrente estruturada.
 - **Ano 2:** produtização e escala.
 
+## Notas de apoio
+
+- [[80 - Biblioteca de fontes]] — catálogo do que consumi, com insights e links para os níveis.
+- [[90 - Diario de estudos]] — registro por sessão: o que entendi com minhas palavras, o que travou, o que ficou aberto.
+
 ## Convenções do vault
 
 - **Status por conceito:** `não iniciado` → `estudando` → `aplicado em projeto`. Um conceito só vira `aplicado em projeto` quando apareceu em código que rodou.

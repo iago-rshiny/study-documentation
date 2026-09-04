@@ -21,6 +21,10 @@ Livros lidos **em paralelo** aos níveis, não como pré-requisito. São o contr
 - [ ] **The Design of Design** — Frederick P. Brooks
   Ensaios sobre o **processo** de design: como grandes decisões são tomadas, o papel do design conceitual único, por que comitês produzem design ruim, exemplos reais de projetos. Ler junto com o Nível 5 — é o pano de fundo intelectual do `/grill-me`: interrogar o design antes de construir é exatamente o que Brooks defende. (Do mesmo autor de *The Mythical Man-Month*.)
 
+- [ ] **AI Engineering** — Chip Huyen (O'Reilly, 2025)
+  O mapa canônico da disciplina que o roadmap inteiro pratica: construir aplicações sobre modelos de fundação sem treinar modelos — prompting, RAG, agentes, avaliação, deploy. Diferente dos outros livros desta nota (que ensinam o ofício atemporal), este ensina o TERRITÓRIO — útil para enxergar o que o roadmap deliberadamente deixou de fora (fine-tuning, serving, dados pesados) e decidir com consciência se algum dia essas fronteiras importam para o negócio. Ler como referência a partir do Nível 3, capítulo a capítulo conforme o nível correspondente.
+  *Atenção à perecibilidade:* é o único livro da lista com prazo de validade — os princípios seguram, os exemplos de ferramentas envelhecem como tudo nos Níveis 5-6.
+
 - [ ] **Domain-Driven Design** — Eric Evans *(estudar — não precisa ler capa a capa)*
   Linguagem ubíqua, bounded contexts, entidades vs. value objects, mapear o domínio ANTES de modelar o sistema. Denso; alternativa de entrada: *Domain-Driven Design Distilled* (Vaughn Vernon) e depois o Evans como referência.
   *Aplicação direta no negócio:* automatizar o atendimento de uma clínica exige primeiro mapear o domínio da clínica (o que é "agendamento", "encaixe", "retorno" NA LINGUAGEM DELES). DDD é a disciplina disso — e o `/grill-me` aplicado ao domínio do cliente é DDD informal.
@@ -30,7 +34,7 @@ Livros lidos **em paralelo** aos níveis, não como pré-requisito. São o contr
 
 ## Ordem sugerida
 
-1. Ousterhout (Níveis 3-4) → 2. Pragmatic Programmer (Nível 3-5) → 3. Brooks (Nível 5) → 4. DDD (Nível 5-6, modo estudo) → 5. Beck (quando o TDD estiver rodando na prática).
+1. Ousterhout (Níveis 3-4) → 2. Pragmatic Programmer (Nível 3-5) → 3. Huyen (referência contínua do Nível 3 em diante) → 4. Brooks (Nível 5) → 5. DDD (Nível 5-6, modo estudo) → 6. Beck (quando o TDD estiver rodando na prática).
 
 ## Critério de "aplicado"
 
