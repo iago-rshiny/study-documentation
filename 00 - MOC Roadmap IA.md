@@ -18,14 +18,16 @@ Mapa de conteúdo do roadmap completo. Cada nível tem nota própria; os conceit
 
 ## Os seis níveis
 
-| Nível | Nota | Duração | Perecibilidade |
-|---|---|---|---|
-| 1 — Fundamentos conceituais | [[10 - Nivel 1 - Fundamentos]] | 2-4 semanas | Baixa (estável por anos) |
-| 2 — Prompt engineering | [[20 - Nivel 2 - Prompt engineering]] | 2-3 semanas, contínuo | Baixa-média |
-| 3 — APIs e código | [[30 - Nivel 3 - APIs e codigo]] | 4-6 semanas | Média |
-| 4 — RAG e memória | [[40 - Nivel 4 - RAG e memoria]] | 3-4 semanas | Média |
-| 5 — Agentes e arquitetura | [[50 - Nivel 5 - Agentes e arquitetura]] | 6-8 semanas | **Alta — revisar por trimestre** |
-| 6 — Produção e avaliação | [[60 - Nivel 6 - Producao e avaliacao]] | Contínuo | **Alta — revisar por trimestre** |
+Cada nível é uma pasta com a nota de conteúdo, o diário de sessões e uma subpasta `conceitos/` para notas atômicas criadas sob demanda. Método e modelos em [[02 - Metodo de estudo]].
+
+| Nível | Conteúdo | Diário | Duração | Perecibilidade |
+|---|---|---|---|---|
+| 1 — Fundamentos | [[10 - Nivel 1 - Fundamentos]] | [[10 - Diario - Nivel 1]] | 2-4 semanas | Baixa |
+| 2 — Prompt engineering | [[20 - Nivel 2 - Prompt engineering]] | [[20 - Diario - Nivel 2]] | 2-3 semanas | Baixa-média |
+| 3 — APIs e código | [[30 - Nivel 3 - APIs e codigo]] | [[30 - Diario - Nivel 3]] | 4-6 semanas | Média |
+| 4 — RAG e memória | [[40 - Nivel 4 - RAG e memoria]] | [[40 - Diario - Nivel 4]] | 3-4 semanas | Média |
+| 5 — Agentes e arquitetura | [[50 - Nivel 5 - Agentes e arquitetura]] | [[50 - Diario - Nivel 5]] | 6-8 semanas | **Alta — rever/trimestre** |
+| 6 — Produção e avaliação | [[60 - Nivel 6 - Producao e avaliacao]] | [[60 - Diario - Nivel 6]] | Contínuo | **Alta — rever/trimestre** |
 
 Total realista: **6-8 meses até nível profissional**, estudando em paralelo com os primeiros projetos (os projetos são o estudo a partir do Nível 3).
 
@@ -52,8 +54,10 @@ Total realista: **6-8 meses até nível profissional**, estudando em paralelo co
 
 ## Notas de apoio
 
+- [[02 - Metodo de estudo]] — estrutura do vault, regras do diário, modelo de entrada, quando criar nota de conceito.
+- [[01 - Conceitos transversais]] — os 5 conceitos que atravessam todos os níveis.
+- [[70 - Leituras paralelas]] — livros lidos em paralelo.
 - [[80 - Biblioteca de fontes]] — catálogo do que consumi, com insights e links para os níveis.
-- [[90 - Diario de estudos]] — registro por sessão: o que entendi com minhas palavras, o que travou, o que ficou aberto.
 
 ## Convenções do vault
 
