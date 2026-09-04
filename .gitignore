@@ -10,3 +10,6 @@ Thumbs.db
 
 # Backups do Obsidian
 .trash/
+
+# Automacao de registro - fila local, nao versionada
+.claude/fila-de-sessoes.jsonl

@@ -58,6 +58,7 @@ Total realista: **6-8 meses até nível profissional**, estudando em paralelo co
 - [[01 - Conceitos transversais]] — os 5 conceitos que atravessam todos os níveis.
 - [[70 - Leituras paralelas]] — livros lidos em paralelo.
 - [[80 - Biblioteca de fontes]] — catálogo do que consumi, com insights e links para os níveis.
+- [[90 - Como funciona a automacao]] — o sistema que registra as sessões aqui dentro: o que é script, o que é agente, e por quê. Painel gerado em [[91 - Painel de progresso]].
 
 ## Convenções do vault
 
